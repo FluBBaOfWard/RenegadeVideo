@@ -1,0 +1,15 @@
+Renegade Video revision history
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+V0.1.2 - 2021-02-26 (FluBBa)
+	Added load/save state.
+
+V0.1.0 - 2021-02-03 (FluBBa)
+	Everything works except flip screen.
+
+V0.0.1 - 2021-01-21 (FluBBa)
+	Started recode for NDS.
+
+V0.0.0 - 2008-04-16 (FluBBa)
+	First GBA release.

@@ -1,0 +1,7 @@
+Renegade Video To do
+--------------------
+
+	Support screen-flip.
+	Optimize tilemap rendering.
+	Optimize scroll copying.
+
