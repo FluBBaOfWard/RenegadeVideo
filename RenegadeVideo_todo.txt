@@ -1,6 +1,7 @@
 Renegade Video To do
 --------------------
 
+	Fix number of sprites, check MAME.
 	Support screen-flip.
 	Optimize tilemap rendering.
 	Optimize scroll copying.

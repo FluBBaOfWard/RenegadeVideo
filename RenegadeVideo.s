@@ -661,7 +661,7 @@ convertSpritesRenegade:		;@ In r0 = destination.
 	stmfd sp!,{r4-r11,lr}
 
 	mov r11,r0					;@ Destination
-	mov r8,#96					;@ Number of sprites
+	mov r8,#96					;@ Number of sprites should be 64!
 //	ldrb r0,[reptr,#scrollXReg+1]
 //	tst r0,#0x80				;@ Sprites enabled?
 //	beq dm7
