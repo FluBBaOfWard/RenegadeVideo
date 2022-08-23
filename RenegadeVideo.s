@@ -674,7 +674,7 @@ convertSpritesRenegade:		;@ In r0 = destination.
 	ldr r10,[reptr,#gfxRAM]
 	add r10,r10,#0x2000
 
-	ldr r7,=g_scaling
+	ldr r7,=gScaling
 	ldrb r7,[r7]
 	cmp r7,#UNSCALED			;@ Do autoscroll
 	ldreq r7,=0x01000000		;@ No scaling
