@@ -356,7 +356,7 @@ flippedTileMap:
 ;@----------------------------------------------------------------------------
 checkFrameIRQ:
 ;@----------------------------------------------------------------------------
-	ldr r0,=g_dipSwitch2
+	ldr r0,=gDipSwitch2
 	ldrb r1,[r0]
 	orr r1,r1,#0x40					;@ VBL flag
 	strb r1,[r0]
@@ -381,7 +381,7 @@ frameEndHook:
 newFrame:					;@ Called before line 0
 ;@----------------------------------------------------------------------------
 
-	ldr r0,=g_dipSwitch2
+	ldr r0,=gDipSwitch2
 	ldrb r1,[r0]
 	bic r1,r1,#0x40					;@ VBL flag
 	strb r1,[r0]
